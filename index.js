@@ -67,7 +67,7 @@ diplayBooks(BooksTemp)
 function addShelves(){
     for (a in [0,1,2]){
         var div = document.createElement('div');
-        div.classList.add('shelf','grid-container')
+        div.classList.add('shelf')
         document.getElementById("container").appendChild(div)
     }
 }

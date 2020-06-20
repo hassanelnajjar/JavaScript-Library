@@ -10,19 +10,21 @@
     <title>JavaScript Library</title>
 </head>
 <body>
-    
-<div id= "container" >
-    <h1>JavaScript Library</h1>
-    <form action="#" class="form">
-        <label for="">Author</label><input id="Author" placeholder="Enter Author" type="text">
-        <label for="">Title</label><input id="Title" placeholder="Enter Title" type="text">
-        <label for="">Image</label><input id="Image" placeholder="Enter Image URL" type="text">
-        <button type="button" class ="btn" onclick = "addBook()">New Book</button> 
-    </form>
-</div>
-
-
-
+<div id = "AllContent">
+    <div id = "header"><h1>JavaScript Library</h1></div>
+    <div id="main">
+        <div id= "container" ></div>
+        <div id="form">
+            <form action="#" class="form">
+                <label for="">Author</label><input id="Author" placeholder="Enter Author" type="text">
+                <label for="">Title</label><input id="Title" placeholder="Enter Title" type="text">
+                <label for="">Image</label><input id="Image" placeholder="Enter Image URL" type="text">
+                <button type="button" class ="btn" onclick = "addBook()">New Book</button> 
+            </form>
+        </div>
+    </div>
+    <div id="footer">Hassan El Najjar &copy;</div>
+</div>  
 <script src="index.js"></script> 
 </body>
 </html>
